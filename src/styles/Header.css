@@ -1,17 +1,24 @@
-/* Header Styles */
 .header {
   background: #fff;
   padding: 15px 0;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.container {
+.container-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1200px;
+  max-width: 1024px;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+.header-title {
+  font-family: Gluten;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  color: #514432;
 }
 
 .logo {
@@ -38,6 +45,10 @@
   text-decoration: none;
   color: #333;
   font-weight: bold;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
 }
 
 .nav ul li a.active {
@@ -65,10 +76,16 @@
   }
 
   .nav.open {
-    display: flex;
+    display: block;
   }
 
   .menu-icon {
     display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-title {
+    display: none;
   }
 }

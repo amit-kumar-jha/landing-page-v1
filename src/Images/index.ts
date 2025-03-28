@@ -1,2 +1,16 @@
 export { default as Logo } from "./Logo.svg";
 export { default as Hero } from "./hero.svg";
+export { default as FishImage } from "./fishImage.svg";
+export { default as Up } from "./Up.svg";
+export { default as Down } from "./Down.svg";
+export { default as FooterLogo } from "./Footer/FooterIcon.svg";
+export { default as Insta } from "./Footer/Insta.svg";
+export { default as Fb } from "./Footer/Fb.svg";
+export { default as LinkedIn } from "./Footer/Linkedin.svg";
+export { default as MemberStories1 } from "./MemberStories/memberStories1.svg";
+export { default as MemberStories2 } from "./MemberStories/memberStories2.svg";
+export { default as MemberStories3 } from "./MemberStories/memberStories3.svg";
+export { default as MemberStories4 } from "./MemberStories/memberStories4.svg";
+export { default as imageFeatured1 } from "./imagefeaturedMobile.svg";
+export { default as imageFeatured2 } from "./imagefeaturedMobile2.svg";
+export { default as imageFeatured3 } from "./imagefeaturedMobile3.svg";

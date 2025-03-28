@@ -7,11 +7,11 @@ const HeroSection: React.FC = () => {
     <section className="hero">
       <div className="container">
         <div className="hero-content">
-          <h1>Central Texas Fly Fishing</h1>
-          <p>
+          <div className="hero-content-text">Central Texas Fly Fishing</div>
+          <div className="hero-content-para ">
             At lacus vitae nulla sagittis scelerisque nisl. Pellentesque duis
             cursus vestibulum, facilisi ac, sed faucibus.
-          </p>
+          </div>
           <button className="cta-button">Get Started</button>
         </div>
         <div className="hero-image">

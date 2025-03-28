@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "../styles/Header.css";
-import logo from "../assets/logo.png"; // Add a logo in assets folder
 import { Logo } from "../Images";
 
 const Header: React.FC = () => {
@@ -8,14 +7,11 @@ const Header: React.FC = () => {
 
   return (
     <header className="header">
-      <div className="container">
-        {/* Logo */}
+      <div className="container-header">
         <div className="logo">
           <img src={Logo} alt="Central Texas Fly Fishing" />
-          <span>Central Texas Fly Fishing</span>
+          <span className="header-title">Central Texas Fly Fishing</span>
         </div>
-
-        {/* Desktop Navigation */}
         <nav className={`nav ${menuOpen ? "open" : ""}`}>
           <ul>
             <li>
@@ -34,8 +30,6 @@ const Header: React.FC = () => {
             </li>
           </ul>
         </nav>
-
-        {/* Hamburger Menu */}
         <div className="menu-icon" onClick={() => setMenuOpen(!menuOpen)}>
           ☰
         </div>
