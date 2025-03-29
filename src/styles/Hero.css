@@ -37,6 +37,7 @@
 .cta-button {
   background: #514432;
   color: white;
+  line-height: 150%;
   padding: 8px 12px;
   border-radius: 4px;
   border: none;
@@ -69,6 +70,7 @@
 
   .hero-content {
     max-width: 100%;
+    padding-top: 20px;
   }
 
   .hero-image {
@@ -96,15 +98,17 @@
 
   .hero-content {
     padding-bottom: 40px;
-    padding: 0 20px;
+    padding: 40px 20px;
   }
 
   .hero-image img {
     padding: 0;
   }
+
   .hero-image {
     padding: 0;
   }
+
   .hero {
     padding: 0;
   }
