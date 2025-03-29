@@ -23,7 +23,7 @@ const DesktopFeatureOptions: React.FC = () => {
                 }
               >
                 <div className="accordion-title">
-                  <div className="accordion-title-text">{item.title}</div>
+                  <div className="accordion-title-text">{item?.title}</div>
                   <div className="" style={{ textAlign: "center" }}>
                     {activeIndex === index ? (
                       <img src={Up} alt="Up" />
@@ -35,15 +35,19 @@ const DesktopFeatureOptions: React.FC = () => {
                 {activeIndex === index && (
                   <div className="accordion-content">
                     <div>
-                      {item.image && <img src={item.image} alt={item.title} />}
+                      {item.image && (
+                        <img src={item?.image} alt={item?.title} />
+                      )}
                     </div>
 
                     <div className="accordion-struc">
                       <div className="border-small" />
                       <div className="accordion-data">
-                        <div className="accordion-data-title">{item.title}</div>
+                        <div className="accordion-data-title">
+                          {item?.title}
+                        </div>
                         <div className="accordion-data-para">
-                          {item.description}
+                          {item?.description}
                         </div>
                         <button className="learn-more">Learn More</button>
                       </div>

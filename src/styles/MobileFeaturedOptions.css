@@ -1,7 +1,7 @@
 .mobile-featured {
   background-color: #f6f2e8;
   padding: 40px 20px;
-  margin: 40px 0;
+  margin: 20px 0;
 }
 
 .options-container {
@@ -11,7 +11,7 @@
 }
 
 .option-card {
-  height: 260px;
+  min-height: 260px;
   text-align: left;
 }
 
@@ -55,4 +55,8 @@
   line-height: 150%;
   text-align: center;
   border-radius: 4px;
+}
+
+.learn-more:hover {
+  background-color: #f7f7f6;
 }
