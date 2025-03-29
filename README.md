@@ -4,7 +4,7 @@ This is a **React-based** static homepage built using **Core/Native CSS**. The p
 
 ## 🚀 Features
 
-- Built with **React** (Vite can be used as well)
+- Built with **React**
 - Uses **Core/Native CSS** for styling (no frameworks like Tailwind or Bootstrap)
 - Responsive design for desktop and mobile screens
 - Dynamic navigation using JSON data
