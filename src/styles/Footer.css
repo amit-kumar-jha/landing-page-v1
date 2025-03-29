@@ -93,7 +93,9 @@
 @media (max-width: 768px) {
   .footer-bottom {
     display: flex;
-    padding-left: 15px;
     justify-content: center;
+  }
+  .footer-links {
+    padding-left: 0;
   }
 }
